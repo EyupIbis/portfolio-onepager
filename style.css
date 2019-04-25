@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after{
+    box-sizing:border-box;
+}
+
+*:focus{
+outline:none;
+}
+
+body{
+    padding:0;
+    margin:0;
+    background: #000;
+    color:white;
+    font-family: "Oxygen", sans-serif;
+    /* overflow-y: hidden; */
+}
+
+a{
+
+text-decoration:none;
+}
+
+img{
+    width:100%;
+}
+
+.home img{
+    width: 100%;
+    -webkit0filter: grayscale(100%) contrast (100%);
+    filter: grayscale(100%) contrast(200%) brightness(60%);
+}
+
+.portfolio img{
+filter: grayscale(100%);
+}
+
+sidebar{
+    position: fixed;
+    background: #222;
+    top:0px;
+    left:0px;
+    width:120px;
+    height:100%;
+    overflow: none;
+    z-index:1;
+    text-align: center;
+    padding: 0;
+}
